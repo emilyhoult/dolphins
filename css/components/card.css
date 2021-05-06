@@ -1,0 +1,40 @@
+.cards-section {
+  display:flex;
+  justify-content:space-evenly;
+  padding:60px 40px 20px 40px;
+}
+
+.card {
+  width:300px;
+  text-align:center;
+  margin:20px;
+  position:relative;
+}
+
+.card img {
+  object-fit:cover;
+  height:200px;
+  width:100%;
+}
+
+.card img:hover {
+  opacity:0.7;
+}
+
+#merch {
+  object-position:top center;
+}
+
+#dolphin {
+  object-position:50% 40%;
+}
+
+.center {
+  position:absolute;
+  top:30%;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+}

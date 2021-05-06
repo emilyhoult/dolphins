@@ -1,0 +1,14 @@
+.video-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 40px;
+  flex-direction: column;
+  align-content: space-around;
+  align-items: center;
+}
+
+.video-section h2 {
+  color:#0F084B;
+  margin-bottom:32px;
+}
